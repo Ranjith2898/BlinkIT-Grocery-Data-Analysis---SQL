@@ -1,29 +1,25 @@
 # BlinkIT-Grocery-Data-Analysis-Project
 
-# Project Overview :
+## Project Overview :
 
-* This project analyzes grocery sales data from BlinkIT to gain insights into sales trends, store performance, and product demand. The dataset consists of 
-  various attributes such as item type, fat content, outlet details, total sales, and ratings.
+* This project analyzes grocery sales data from **BlinkIT** to gain insights into sales trends, store performance, and product demand. The dataset consists of various attributes such as item type, fat content, outlet details, total sales, and ratings.
 
-# Technologies Used
+## Technologies Used
 
 * SQL for database creation and querying
 
 
-# Dataset Information
+## Dataset Information
 
 The dataset contains the following key columns:
 
-* Item Details: Fat Content, Identifier, Type, Visibility, Weight
-
-* Outlet Information: Establishment Year, Identifier, Location Type, Size, Type
-
+* Item Details: Fat Content, Identifier, Type, Visibility, Weight<br>
+* Outlet Information: Establishment Year, Identifier, Location Type, Size, Type<br>
 * Sales Data: Total Sales and Ratings
 
-# Database Schema
+## Database Schema
 
-* A structured database named blinkit was created with a table blinkit_data having fields:
-
+* A structured database named blinkit was created with a table blinkit_data having fields:<br>
 Item_Fat_Content (VARCHAR)
 
 Item_Identifier (VARCHAR)
@@ -49,10 +45,8 @@ Total_Sales (FLOAT)
 Rating (FLOAT)
 
 
-# Key Analysis and Insights
+## Key Analysis and Insights
 
-* Total Sales Analysis: Total sales in millions are computed using SQL queries.
-
-* Average Sales Analysis: The average sales amount provides insight into product performance.
-
+* Total Sales Analysis: Total sales in millions are computed using SQL queries.<br>
+* Average Sales Analysis: The average sales amount provides insight into product performance.<br>
 * Outlet Performance Analysis: Understanding the impact of outlet size and type on sales.
