@@ -6,12 +6,12 @@
 
 ## Technologies Used
 
-* SQL for database creation and querying
+* **Mysql** for database creation and querying
 
 
 ## Dataset Information
 
-The dataset contains the following key columns:
+**The dataset contains the following key columns:**
 
 * Item Details: Fat Content, Identifier, Type, Visibility, Weight<br>
 * Outlet Information: Establishment Year, Identifier, Location Type, Size, Type<br>
@@ -20,6 +20,7 @@ The dataset contains the following key columns:
 ## Database Schema
 
 * A structured database named blinkit was created with a table blinkit_data having fields:<br>
+
 Item_Fat_Content (VARCHAR)
 
 Item_Identifier (VARCHAR)
