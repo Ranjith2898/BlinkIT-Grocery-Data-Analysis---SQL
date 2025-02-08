@@ -19,7 +19,7 @@
 
 ## Database Schema
 
-* A structured database named blinkit was created with a table blinkit_data having fields:<br>
+**A structured database named blinkit was created with a table blinkit_data having fields:**<br>
 
 Item_Fat_Content (VARCHAR)
 
